@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!--Start Quiz Button  -->
+    <div class="start_btn"><button>Start Quiz</button></div>
+
+     <!-- Info Box -->
+     <div class="info_box">
+        <div class="info_title"><span> Rules of this Quiz</span></div>
+        <div class="info-list">
+            <div class="info">1. You will have only <span>5 minutes </span> for attempting each question.</div>
+            <div class="info">2. Once you select your answer, it can't be undone.</div>
+            <div class="info">3. You can't select any option once time goes off.</div>
+            <div class="info">4. You can't exit from the Quiz while you're playing.</div>
+            <div class="info">5. You'll get points on the basis of your correct answers.</div>
+        </div>
+
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+
+    <!--Quiz Box  -->   
+    <div class="quiz-container" id="quiz">
+        <div class="quiz-header"></div>
+          <h2 id="question">Question text</h2>
+        <ul>
+            <li>
+                <input type="radio" 
+                id="a" 
+                name="answer"
+                class="answer"
+                />
+                <label id="a_text"  for="a">Question</label>
+            </li>
+            <li>
+                <input type="radio" 
+                 id="b"
+                 name="answer"
+                 class="answer"
+                 />
+                <label id="b_text"  for="b">Question</label>
+            </li>
+            <li>
+                <input type="radio" 
+                 id="c"
+                 name="answer"
+                 class="answer"
+                 />
+                <label id="c_text"  for="c">Question</label>
+            </li>
+            <li>
+                <input type="radio" 
+                id="d" 
+                name="answer"
+                class="answer"
+                />
+                <label id="d_text"  for="d">Question</label>
+            </li>
+        </ul>
+    <button id="submit">Submit</button>
+    </div>
+    
+</body>
+
+</html>
