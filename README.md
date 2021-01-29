@@ -3,6 +3,7 @@ A Quiz Application using HTML, CSS, JavaScript.
 
 # Objective 
 A small web appilcation created for the purpose of learning a JavaScript programming language and improveing my Core Web Development Knowledge.
+Design at - https://devyanijain13.github.io/Quiz-App/.
 
 1) You have 'Start Quiz' button at the starting Webpage.
 
@@ -20,3 +21,4 @@ A small web appilcation created for the purpose of learning a JavaScript program
 
 # Closing 
 After completing quiz - your score is saved in LocalStorage - if User clicks on the reload quiz button, the current window will be reloaded and the quiz starts from the beginning.
+
