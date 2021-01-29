@@ -14,9 +14,9 @@ A small web appilcation created for the purpose of learning a JavaScript program
 
 5) Submit button is by default in every question - you must select any option to enable it.
 
-6) An alert pop up will appear
+6) An alert pop up will appear with a message asking for confirmation of skipping the question with two buttons "OK" and "Cancel" .
 
-8) At the end it shows score with "Reload Quiz" button. 
+7) At the end it shows score with "Reload Quiz" button. 
 
 # Closing 
 After completing quiz - your score is saved in LocalStorage - if User clicks on the reload quiz button, the current window will be reloaded and the quiz starts from the beginning.
