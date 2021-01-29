@@ -4,7 +4,7 @@ A Quiz Application using HTML, CSS, JavaScript.
 # Objective 
 A small web appilcation created for the purpose of learning a JavaScript programming language and improveing my Core Web Development Knowledge.
 
-Design at - https://devyanijain13.github.io/Quiz-App/.
+Project look- https://devyanijain13.github.io/Quiz-App/.
 
 1) You have 'Start Quiz' button at the starting Webpage.
 
